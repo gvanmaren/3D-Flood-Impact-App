@@ -1,0 +1,58 @@
+{
+  "appid": "",
+  "title": null,
+  "titlelink": null,
+  "webscene": "default",
+  "transparentBackground": false,
+  "backgroundColor": "#fff",
+  "portalUrl": "https://www.arcgis.com",
+  "insetPosition": "bottom-left",
+  "insetExpand": false,
+  "controlPosition": "bottom-right",
+  "splitDirection": "vertical",
+  "insetBasemap": "topo",
+  "insetZoom": false,
+  "useWebMap": true,
+  "locationColor": "#FF3300",
+  "oauthappid": "",
+  "proxyUrl": "",
+  "search": true,
+  "searchPosition": "top-right",
+  "searchExpanded": false,
+  "home": true,
+  "homePosition": "top-left",
+  "slides": true,
+  "slidesPosition": "top-right",
+  "slidesTitle": null,
+  "measurement": true,
+  "measurementPosition": "top-right",
+  "splash": true,
+  "splashOnStart": true,
+  "splashDesc": "This dashboard application shows the impact of sea level rise on buildings in the Baltimore area. Click the up and down arrows to change the flood level. This changes the flood level in the scene and the impact on the buildings is shown in the right hand panel. Click on the pie chart to see the impact per usage. Multiple selection is supported. For more information, send an email to: gvanmaren@esri.com.",
+  "splashTitle": "Sea Level Rise - Baltimore (Beta)",
+  "splashButtonLabel": "Ok",
+  "helperServices": {
+    "geometry": {
+      "url": null
+    },
+    "printTask": {
+      "url": null
+    },
+    "elevationSync": {
+      "url": null
+    },
+    "geocode": [{
+      "url": null
+    }]
+  },
+  "buildingLayerName": "Baltimore Buildings SLR 4",
+  "floodlevelGroupLayerName": "Flood levels",
+  "flood_risk": "SLR",                       
+  "level_name": "Slider",
+  "damage_name": "LossPotential",  
+  "exposure": "AREA",
+  "OIDname": "OBJECTID",
+  "flood_unit": "feet",
+  "flood_risk_name": "Sea Level Rise",
+  "damage_unit": "$"
+}

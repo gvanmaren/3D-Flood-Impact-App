@@ -1,0 +1,45 @@
+{
+  "environment": {
+    "isEsri": true,
+    "webTierSecurity": false
+  },
+  "localStorage": {
+    "fetch": true
+  },
+  "portal": {
+    "fetch": true
+  },
+  "urlParams": [
+    "appid",
+    "basemapUrl",
+    "basemapReferenceUrl",
+    "measurement",
+    "center",
+    "components",
+    "embed",
+    "extent",
+    "find",
+    "level",
+    "marker",
+    "oauthappid",
+    "portalUrl",
+    "viewpoint",
+    "webscene",
+    "webmap",
+    "useWebMap",
+    "insetPosition",
+    "controlPosition",
+    "splitDirection",
+    "insetBasemap",
+    "locationColor",
+    "home"
+  ],
+  "webMap": {
+    "default": "3525490e7ede4099af32f12381326bf3",
+    "fetch": true
+  },
+  "webScene": {
+    "default": "ec8a197abf8b41f5b759c5c6e352f6c2",
+    "fetch": true
+  }
+}
