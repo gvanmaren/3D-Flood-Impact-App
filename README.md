@@ -1,0 +1,2 @@
+# 3D-Flood-Impact-App
+This dashboard application shows the impact of sea level rise on buildings in the Baltimore area. Click the up and down arrows to change the flood level. This changes the flood level in the scene and the impact on the buildings is shown in the right hand panel. Click on the pie chart to see the impact per usage. Multiple selection is supported. For more information, send an email to: gvanmaren@esri.com.
