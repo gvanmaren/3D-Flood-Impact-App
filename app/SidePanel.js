@@ -50,7 +50,8 @@ define([
         dom.byId(SLRSliderMessage).innerHTML = this.config.flood_risk_name + ": " + "no flooding";
       }
       else{
-        dom.byId(SLRSliderMessage).innerHTML = this.config.flood_risk_name + ": " + this.floodSliderValue + " " + this.config.flood_unit;
+        // to do: remove hack: this.floodSliderValue + 1
+        dom.byId(SLRSliderMessage).innerHTML = this.config.flood_risk_name + ": " + (this.floodSliderValue + 1) + " " + this.config.flood_unit;
       }
 
       dom.byId("btnDecreaseFloodLevel").disabled = true;
@@ -99,7 +100,8 @@ define([
             dom.byId(SLRSliderMessage).innerHTML = this.config.flood_risk_name + ": " + "no flooding";
           }
           else{
-            dom.byId(SLRSliderMessage).innerHTML = this.config.flood_risk_name + ": " + this.floodSliderValue + " " + this.config.flood_unit;
+            // to do: remove hack: this.floodSliderValue + 1
+            dom.byId(SLRSliderMessage).innerHTML = this.config.flood_risk_name + ": " + (this.floodSliderValue + 1) + " " + this.config.flood_unit;
           }
 
           this.processFloodLevelChange();
@@ -125,7 +127,8 @@ define([
             dom.byId(SLRSliderMessage).innerHTML = this.config.flood_risk_name + ": " + "no flooding";
           }
           else{
-            dom.byId(SLRSliderMessage).innerHTML = this.config.flood_risk_name + ": " + this.floodSliderValue + " " + this.config.flood_unit;
+            // to do: remove hack: this.floodSliderValue + 1
+            dom.byId(SLRSliderMessage).innerHTML = this.config.flood_risk_name + ": " + (this.floodSliderValue + 1) + " " + this.config.flood_unit;
           }
 
           this.processFloodLevelChange();

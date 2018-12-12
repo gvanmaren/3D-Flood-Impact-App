@@ -77,8 +77,9 @@ define(["require", "exports", "esri/core/tsSupport/declareExtendsHelper", "esri/
             if (_this.config.locationColor) {
                 defaultDirectionSymbol.color = _this.config.locationColor;
             }
-            console.log(_this.config.webmap)
+
             _this.mapId = _this.config.webmap || null;
+
             return _this;
         }
         InsetMap.prototype.createInsetView = function () {
@@ -90,9 +91,7 @@ define(["require", "exports", "esri/core/tsSupport/declareExtendsHelper", "esri/
                         case 0:
                             insetDiv = document.getElementById("mapInset");
                             mapProps = {};
-                            console.log("gg")
-                            console.log(this.mapId)
-                            console.log(this.config.useWebMap)
+
                             if (this.mapId && this.config.useWebMap) {
                                 mapProps.portalItem = { id: this.mapId };
                             }
